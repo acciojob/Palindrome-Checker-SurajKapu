@@ -2,7 +2,7 @@
 
 function palindrome(str){
 	let left = 0;
-	let right = str.length();
+	let right = str.length()-1;
 	while (left < right) {
 		let left_char = str.charAt(left)
 		let right_char = str.charAt(right)
